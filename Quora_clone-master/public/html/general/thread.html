@@ -1,0 +1,65 @@
+<br>
+<div class="row">
+  <div class="large-10 large-offset-1 medium-10 medium-offset-1 small-12 columns ">
+    <div id="feedColumn" class="large-3 medium-2 small-12 columns buttons">
+      <div class="header">Questions in {{question.topic.name}} </div>
+    </div>
+
+    <!-- MAIN COLUMN -->
+    <div class="large-9 medium-8 small-12 columns buttons">
+        <div class="text-center header">{{question.title}}</div>
+        <p ng-bind-html="question.content | unsafe"></p>
+        Your Answer
+      <textarea id="answerText" type="text" ng-model="answer" placeholder="Answer..."></textarea>
+      <button class="buttons left" ng-click="submitAnswer(answer, question)">Post Your Answer</button>
+      <div id="answerSection">
+        <div ng-repeat="answer in answers">
+          <div class="answer">
+            <a href="">{{answer.author.username}}</a>'s Answer
+            <p>{{answer.date | date}}</p>
+            <hr>
+            <p ng-bind-html="answer.content | unsafe"></p>
+            <hr>
+            <button ng-show="!answer.liked" ng-click="toggleAnswerLike($index)">Like | <span>{{answer.likes}}</span></button>
+            <button ng-show="answer.liked" ng-click="toggleAnswerLike($index)">Unlike | <span>{{answer.likes}}</span></button>
+            <button class="dislikeBtn" ng-show="!answer.disliked" ng-click="toggleAnswerDislike($index)">Dislike | <span>{{answer.dislikes}}</span></button>
+            <button class="dislikeBtn" ng-show="answer.disliked" ng-click="toggleAnswerDislike($index)">Undo | <span>{{answer.dislikes}}</span></button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="commentsChain">
+        <hr>
+        <div class="commentSection">
+          <div class="commentInput">
+            <div class="row">
+              <div class="columns small-11">
+                <textarea type="text" ng-model="comment" style="width: 85%;" placeholder="comment..."></textarea>
+              </div>
+              <div class="columns small-1">
+                <button class="right" ng-click="submitComment(comment, question)">Submit</button>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="comments" ng-repeat="comment in comments">
+            <div class="commentBody">
+              <button ng-if="comment.userPost" ng-click="deletePost(comment, $index)" class="right">delete</button>
+              <h6><img id="navPicture" data-ng-src="data:image/png;base64,{{comment.author.picture}}" data-err-src="/assets/User-100.png"/><a ng-href='/profile/{{comment.author._id}}'> {{comment.author.username}}</a></h6>
+              <p ng-bind-html="comment.content | unsafe"></p>
+              <button ng-show="!comment.liked" ng-click="toggleCommentLike('comment', $index)">Like | <span>{{comment.likes}}</span></button>
+              <button ng-show="comment.liked" ng-click="toggleCommentLike('comment', $index)">Unlike | <span>{{comment.likes}}</span></button>
+              <button class="dislikeBtn" ng-show="!comment.disliked" ng-click="togglePostDislike('comment', $index)">Dislike | <span>{{comment.dislikes}}</span></button>
+              <button class="dislikeBtn" ng-show="comment.disliked" ng-click="togglePostDislike('comment', $index)">Undo | <span>{{comment.dislikes}}</span></button>
+            </div>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- TOPICS COLUMN -->
+
+</div>
