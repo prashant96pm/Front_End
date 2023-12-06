@@ -23,7 +23,7 @@ searchButton.addEventListener('click', () => {
     })
     .catch(error => {
       console.error(error);
-    });
+    })
 });
 
 // Define a function to display meal items on screen
