@@ -140,7 +140,7 @@ function showFav() {
       });
       mealElement.appendChild(removeButton);
 
-      
+      searchResults.appendChild(mealElement);
     });
   }
 }
