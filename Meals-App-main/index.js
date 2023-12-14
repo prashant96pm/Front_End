@@ -81,7 +81,7 @@ function displaySearchResults(meals) {
     });
     mealElement.appendChild(favoriteButton);
 
-    
+    searchResults.appendChild(mealElement);
   });
 }
 
@@ -131,7 +131,7 @@ function showFav() {
               break;
           }
       }
-      mealElement.appendChild(mealIngredients);
+      
 
       const removeButton = document.createElement('button');
       removeButton.innerHTML = '<i class="fas fa-trash"></i> Remove from Favorites';
