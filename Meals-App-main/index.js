@@ -81,7 +81,7 @@ function displaySearchResults(meals) {
     });
     mealElement.appendChild(favoriteButton);
 
-    searchResults.appendChild(mealElement);
+    
   });
 }
 
