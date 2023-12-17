@@ -88,7 +88,7 @@ fieldset[disabled] .pagination-ellipsis {
   top: 50%;
   transform: rotate(-45deg);
   transform-origin: center;
-  width: 0.625em;
+  
 }
 
 .box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child),
