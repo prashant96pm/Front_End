@@ -71,7 +71,7 @@ fieldset[disabled] .pagination-ellipsis {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  
+  user-select: none;
 }
 
 .select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after {
