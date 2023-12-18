@@ -209,7 +209,7 @@ fieldset[disabled] .pagination-ellipsis {
 .image.is-2by3 .has-ratio, .image.is-3by5 img,
 .image.is-3by5 .has-ratio, .image.is-9by16 img,
 .image.is-9by16 .has-ratio, .image.is-1by2 img,
-
+.image.is-1by2 .has-ratio, .image.is-1by3 img,
 .image.is-1by3 .has-ratio, .modal, .modal-background, .is-overlay, .hero-video {
   bottom: 0;
   left: 0;
