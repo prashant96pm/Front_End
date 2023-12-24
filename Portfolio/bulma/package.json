@@ -46,7 +46,7 @@
     "deploy": "npm run clean && npm run build && npm run rtl",
     "start": "npm run build-sass -- --watch"
   },
-  "files": [
+  
     "css",
     "sass",
     "bulma.sass",
