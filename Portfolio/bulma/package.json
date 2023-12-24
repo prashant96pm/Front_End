@@ -45,7 +45,7 @@
     "rtl-cleancss": "cleancss -o css/bulma-rtl.min.css css/bulma-rtl.css",
     "deploy": "npm run clean && npm run build && npm run rtl",
     "start": "npm run build-sass -- --watch"
-  
+  },
   "files": [
     "css",
     "sass",
