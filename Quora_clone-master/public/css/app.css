@@ -82,7 +82,7 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-a:active,
+
 a:hover {
   outline: 0; }
 
