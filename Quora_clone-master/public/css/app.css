@@ -169,7 +169,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-hr {
+
   box-sizing: content-box;
   height: 0; }
 
