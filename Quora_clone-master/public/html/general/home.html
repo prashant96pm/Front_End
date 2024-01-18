@@ -44,7 +44,7 @@
           <div ng-if="!post.answerWritten">
             <div class="row">
               <p class="answered">unanswered</p>
-              
+              <a class="topic" ng-href="/topics/{{post.topic.name}}">{{post.topic.name}}</a>
             </div>
           </div>
           <h4><a ng-href='/thread/{{post._id}}'>{{post.title}}</a></h4>
