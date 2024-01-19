@@ -96,7 +96,7 @@ fieldset[disabled] .pagination-ellipsis {
   margin-bottom: 1.5rem;
 }
 
-.delete, .modal-close {
+
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
