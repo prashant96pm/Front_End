@@ -105,7 +105,7 @@ fieldset[disabled] .pagination-ellipsis {
   -moz-appearance: none;
   -webkit-appearance: none;
   background-color: rgba(10, 10, 10, 0.2);
-  
+  border: none;
   border-radius: 9999px;
   cursor: pointer;
   pointer-events: auto;
