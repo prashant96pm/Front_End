@@ -84,7 +84,7 @@ fieldset[disabled] .pagination-ellipsis {
   height: 0.625em;
   margin-top: -0.4375em;
   pointer-events: none;
-  
+  position: absolute;
   top: 50%;
   transform: rotate(-45deg);
   transform-origin: center;
