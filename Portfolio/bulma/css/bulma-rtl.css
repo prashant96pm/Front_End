@@ -78,7 +78,7 @@ fieldset[disabled] .pagination-ellipsis {
   border: 3px solid transparent;
   border-radius: 2px;
   border-right: 0;
-  
+  border-top: 0;
   content: " ";
   display: block;
   height: 0.625em;
