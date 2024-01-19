@@ -110,7 +110,7 @@ fieldset[disabled] .pagination-ellipsis {
   cursor: pointer;
   pointer-events: auto;
   display: inline-block;
-  
+  flex-grow: 0;
   flex-shrink: 0;
   font-size: 0;
   height: 20px;
