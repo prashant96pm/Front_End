@@ -101,7 +101,7 @@ fieldset[disabled] .pagination-ellipsis {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  
+  user-select: none;
   -moz-appearance: none;
   -webkit-appearance: none;
   background-color: rgba(10, 10, 10, 0.2);
