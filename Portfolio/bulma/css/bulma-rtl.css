@@ -109,7 +109,7 @@ fieldset[disabled] .pagination-ellipsis {
   border-radius: 9999px;
   cursor: pointer;
   pointer-events: auto;
-  
+  display: inline-block;
   flex-grow: 0;
   flex-shrink: 0;
   font-size: 0;
