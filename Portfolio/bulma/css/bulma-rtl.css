@@ -111,7 +111,7 @@ fieldset[disabled] .pagination-ellipsis {
   pointer-events: auto;
   display: inline-block;
   flex-grow: 0;
-  flex-shrink: 0;
+  
   font-size: 0;
   height: 20px;
   max-height: 20px;
