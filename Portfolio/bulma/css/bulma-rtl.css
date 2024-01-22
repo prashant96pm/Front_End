@@ -119,7 +119,7 @@ fieldset[disabled] .pagination-ellipsis {
   min-height: 20px;
   min-width: 20px;
   outline: none;
-  position: relative;
+  
   vertical-align: top;
   width: 20px;
 }
