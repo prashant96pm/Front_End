@@ -132,7 +132,7 @@ fieldset[disabled] .pagination-ellipsis {
   position: absolute;
   top: 50%;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
-  transform-origin: center center;
+  
 }
 
 .delete::before, .modal-close::before {
