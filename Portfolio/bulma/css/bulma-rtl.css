@@ -149,7 +149,7 @@ fieldset[disabled] .pagination-ellipsis {
   background-color: rgba(10, 10, 10, 0.3);
 }
 
-
+.delete:active, .modal-close:active {
   background-color: rgba(10, 10, 10, 0.4);
 }
 
