@@ -140,7 +140,7 @@ fieldset[disabled] .pagination-ellipsis {
   width: 50%;
 }
 
-
+.delete::after, .modal-close::after {
   height: 50%;
   width: 2px;
 }
