@@ -145,7 +145,7 @@ fieldset[disabled] .pagination-ellipsis {
   width: 2px;
 }
 
-.delete:hover, .modal-close:hover, .delete:focus, .modal-close:focus {
+
   background-color: rgba(10, 10, 10, 0.3);
 }
 
