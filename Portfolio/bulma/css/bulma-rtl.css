@@ -137,7 +137,7 @@ fieldset[disabled] .pagination-ellipsis {
 
 .delete::before, .modal-close::before {
   height: 2px;
-  
+  width: 50%;
 }
 
 .delete::after, .modal-close::after {
