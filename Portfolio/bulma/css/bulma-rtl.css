@@ -135,7 +135,7 @@ fieldset[disabled] .pagination-ellipsis {
   transform-origin: center center;
 }
 
-.delete::before, .modal-close::before {
+
   height: 2px;
   width: 50%;
 }
