@@ -162,7 +162,7 @@ fieldset[disabled] .pagination-ellipsis {
   width: 16px;
 }
 
-
+.is-medium.delete, .is-medium.modal-close {
   height: 24px;
   max-height: 24px;
   max-width: 24px;
