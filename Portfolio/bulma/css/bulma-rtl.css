@@ -213,7 +213,7 @@ fieldset[disabled] .pagination-ellipsis {
 .image.is-1by3 .has-ratio, .modal, .modal-background, .is-overlay, .hero-video {
   bottom: 0;
   left: 0;
-  
+  position: absolute;
   right: 0;
   top: 0;
 }
