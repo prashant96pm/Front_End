@@ -608,11 +608,7 @@ fieldset[disabled] .button.is-text {
   color: #0a0a0a;
 }
 
-.button.is-white[disabled],
-fieldset[disabled] .button.is-white {
-  background-color: white;
-  border-color: white;
-  box-shadow: none;
+
 }
 
 .button.is-white.is-inverted {
