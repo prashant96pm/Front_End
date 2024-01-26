@@ -2091,7 +2091,9 @@ fieldset[disabled] .button {
   text-align: center;
 }
 
-
+.content figure:not(:first-child) {
+  margin-top: 2em;
+}
 
 .content figure:not(:last-child) {
   margin-bottom: 2em;
