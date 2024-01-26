@@ -827,6 +827,10 @@ fieldset[disabled] .button.is-light {
   box-shadow: none;
 }
 
+.button.is-light.is-inverted {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: whitesmoke;
+}
 
 .button.is-light.is-inverted:hover, .button.is-light.is-inverted.is-hovered {
   background-color: rgba(0, 0, 0, 0.7);
