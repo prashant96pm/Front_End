@@ -2161,9 +2161,6 @@ fieldset[disabled] .button {
   margin-top: 0;
 }
 
-.content.is-small {
-  font-size: 0.75rem;
-}
 
 .content.is-normal {
   font-size: 1rem;
