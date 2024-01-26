@@ -704,6 +704,9 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
   color: white;
 }
 
+.button.is-black:focus:not(:active), .button.is-black.is-focused:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25);
+}
 
 .button.is-black:active, .button.is-black.is-active {
   background-color: black;
