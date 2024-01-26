@@ -2115,7 +2115,10 @@ fieldset[disabled] .button {
   word-wrap: normal;
 }
 
-
+.content sup,
+.content sub {
+  font-size: 75%;
+}
 
 .content table {
   width: 100%;
