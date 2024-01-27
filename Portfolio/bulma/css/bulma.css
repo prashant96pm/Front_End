@@ -2228,11 +2228,6 @@ div.icon-text {
   position: relative;
 }
 
-.image img {
-  display: block;
-  height: auto;
-  width: 100%;
-}
 
 .image img.is-rounded {
   border-radius: 9999px;
