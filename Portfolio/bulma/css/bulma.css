@@ -2223,10 +2223,6 @@ div.icon-text {
   display: flex;
 }
 
-.image {
-  display: block;
-  position: relative;
-}
 
 .image img {
   display: block;
