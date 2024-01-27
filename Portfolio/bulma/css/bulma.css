@@ -2197,6 +2197,14 @@ fieldset[disabled] .button {
   width: 3rem;
 }
 
+.icon-text {
+  align-items: flex-start;
+  color: inherit;
+  display: inline-flex;
+  flex-wrap: wrap;
+  line-height: 1.5rem;
+  vertical-align: top;
+}
 
 .icon-text .icon {
   flex-grow: 0;
