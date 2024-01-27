@@ -2206,7 +2206,10 @@ fieldset[disabled] .button {
   vertical-align: top;
 }
 
-
+.icon-text .icon {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
 
 .icon-text .icon:not(:last-child) {
   margin-right: 0.25em;
