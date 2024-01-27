@@ -2234,6 +2234,13 @@ div.icon-text {
   width: 100%;
 }
 
+.image img.is-rounded {
+  border-radius: 9999px;
+}
+
+.image.is-fullwidth {
+  width: 100%;
+}
 
 .image.is-square img,
 .image.is-square .has-ratio, .image.is-1by1 img,
