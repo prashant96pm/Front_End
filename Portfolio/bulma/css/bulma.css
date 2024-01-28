@@ -2287,6 +2287,10 @@ div.icon-text {
   padding-top: 56.25%;
 }
 
+.image.is-2by1 {
+  padding-top: 50%;
+}
+
 .image.is-3by1 {
   padding-top: 33.3333%;
 }
