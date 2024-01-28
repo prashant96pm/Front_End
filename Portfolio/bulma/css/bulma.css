@@ -2253,10 +2253,6 @@ div.icon-text {
 .image.is-2by1 .has-ratio, .image.is-3by1 img,
 .image.is-3by1 .has-ratio, .image.is-4by5 img,
 .image {
-  height: 100%;
-  width: 100%;
-}
-
 .image.is-square, .image.is-1by1 {
   padding-top: 100%;
 }
