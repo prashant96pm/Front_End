@@ -2275,6 +2275,10 @@ div.icon-text {
   padding-top: 75%;
 }
 
+.image.is-3by2 {
+  padding-top: 66.6666%;
+}
+
 .image.is-5by3 {
   padding-top: 60%;
 }
