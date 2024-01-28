@@ -2257,6 +2257,10 @@ div.icon-text {
   width: 100%;
 }
 
+.image.is-square, .image.is-1by1 {
+  padding-top: 100%;
+}
+
 .image.is-5by4 {
   padding-top: 80%;
 }
