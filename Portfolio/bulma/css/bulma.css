@@ -2252,7 +2252,13 @@ div.icon-text {
 .image.is-16by9 .has-ratio, .image.is-2by1 img,
 .image.is-2by1 .has-ratio, .image.is-3by1 img,
 .image.is-3by1 .has-ratio, .image.is-4by5 img,
-.image {
+.image.is-4by5 .has-ratio, .image.is-3by4 img,
+.image.is-3by4 .has-ratio, .image.is-2by3 img,
+.image.is-2by3 .has-ratio, .image.is-3by5 img,
+.image.is-3by5 .has-ratio, .image.is-9by16 img,
+.image.is-9by16 .has-ratio, .image.is-1by2 img,
+.image.is-1by2 .has-ratio, .image.is-1by3 img,
+.image.is-1by3 .has-ratio {
   height: 100%;
   width: 100%;
 }
