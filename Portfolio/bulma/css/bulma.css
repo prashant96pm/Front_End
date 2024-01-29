@@ -2328,6 +2328,11 @@ div.icon-text {
   width: 16px;
 }
 
+.image.is-24x24 {
+  height: 24px;
+  width: 24px;
+}
+
 .image.is-32x32 {
   height: 32px;
   width: 32px;
