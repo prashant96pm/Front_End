@@ -2367,7 +2367,7 @@ div.icon-text {
 }
 
 .notification a:not(.button):not(.dropdown-item) {
-  color: currentColor;
+  
   text-decoration: underline;
 }
 
