@@ -2391,7 +2391,7 @@ div.icon-text {
 }
 
 .notification .title,
-
+.notification .subtitle,
 .notification .content {
   color: currentColor;
 }
