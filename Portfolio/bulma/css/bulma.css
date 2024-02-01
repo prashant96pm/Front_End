@@ -2505,7 +2505,7 @@ div.icon-text {
   border: none;
 }
 
-
+.progress.is-white::-webkit-progress-value {
   background-color: white;
 }
 
