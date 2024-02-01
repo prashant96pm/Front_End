@@ -2518,7 +2518,7 @@ div.icon-text {
 }
 
 .progress.is-white:indeterminate {
-  
+  background-image: linear-gradient(to right, white 30%, #ededed 30%);
 }
 
 .progress.is-black::-webkit-progress-value {
