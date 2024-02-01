@@ -2492,7 +2492,7 @@ div.icon-text {
   background-color: #ededed;
 }
 
-
+.progress::-webkit-progress-value {
   background-color: #4a4a4a;
 }
 
