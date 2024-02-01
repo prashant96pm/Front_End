@@ -2493,7 +2493,7 @@ div.icon-text {
 }
 
 .progress::-webkit-progress-value {
-  
+  background-color: #4a4a4a;
 }
 
 .progress::-moz-progress-bar {
