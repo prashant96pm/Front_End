@@ -2496,7 +2496,7 @@ div.icon-text {
   background-color: #4a4a4a;
 }
 
-
+.progress::-moz-progress-bar {
   background-color: #4a4a4a;
 }
 
