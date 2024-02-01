@@ -2501,7 +2501,7 @@ div.icon-text {
 }
 
 .progress::-ms-fill {
-  
+  background-color: #4a4a4a;
   border: none;
 }
 
