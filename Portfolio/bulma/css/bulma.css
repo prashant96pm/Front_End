@@ -2541,7 +2541,7 @@ div.icon-text {
   background-color: whitesmoke;
 }
 
-
+.progress.is-light::-moz-progress-bar {
   background-color: whitesmoke;
 }
 
