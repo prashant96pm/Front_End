@@ -2537,7 +2537,7 @@ div.icon-text {
   background-image: linear-gradient(to right, #0a0a0a 30%, #ededed 30%);
 }
 
-
+.progress.is-light::-webkit-progress-value {
   background-color: whitesmoke;
 }
 
