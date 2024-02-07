@@ -506,7 +506,7 @@ a.box:active {
   color: inherit;
 }
 
-
+.button .icon, .button .icon.is-small, .button .icon.is-medium, .button .icon.is-large {
   height: 1.5em;
   width: 1.5em;
 }
