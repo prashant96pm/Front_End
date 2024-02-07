@@ -513,7 +513,7 @@ a.box:active {
 
 .button .icon:first-child:not(:last-child) {
   margin-right: calc(-0.5em - 1px);
-  margin-left: 0.25em;
+  
 }
 
 .button .icon:last-child:not(:first-child) {
