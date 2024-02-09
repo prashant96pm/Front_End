@@ -598,7 +598,7 @@ fieldset[disabled] .button.is-text {
   color: #0a0a0a;
 }
 
-.button.is-white:focus:not(:active), .button.is-white.is-focused:not(:active) {
+
   box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
 }
 
