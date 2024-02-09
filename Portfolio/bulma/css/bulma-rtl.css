@@ -576,7 +576,7 @@ fieldset[disabled] .button.is-text {
   text-decoration: none;
 }
 
-.button.is-ghost:hover, .button.is-ghost.is-hovered {
+
   color: #485fc7;
   text-decoration: underline;
 }
