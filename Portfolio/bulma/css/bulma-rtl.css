@@ -593,7 +593,7 @@ fieldset[disabled] .button.is-text {
   color: #0a0a0a;
 }
 
-.button.is-white:focus, .button.is-white.is-focused {
+
   border-color: transparent;
   color: #0a0a0a;
 }
