@@ -552,7 +552,7 @@ a.box:active {
   text-decoration: underline;
 }
 
-
+.button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
   background-color: whitesmoke;
   color: #363636;
 }
