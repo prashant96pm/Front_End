@@ -615,7 +615,7 @@ fieldset[disabled] .button.is-white {
   box-shadow: none;
 }
 
-.button.is-white.is-inverted {
+
   background-color: #0a0a0a;
   color: white;
 }
