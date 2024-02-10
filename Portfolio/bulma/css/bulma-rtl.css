@@ -609,7 +609,7 @@ fieldset[disabled] .button.is-text {
 }
 
 .button.is-white[disabled],
-fieldset[disabled] .button.is-white {
+
   background-color: white;
   border-color: white;
   box-shadow: none;
