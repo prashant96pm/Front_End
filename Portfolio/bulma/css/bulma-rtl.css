@@ -620,7 +620,7 @@ fieldset[disabled] .button.is-white {
   color: white;
 }
 
-
+.button.is-white.is-inverted:hover, .button.is-white.is-inverted.is-hovered {
   background-color: black;
 }
 
