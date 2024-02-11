@@ -642,7 +642,7 @@ fieldset[disabled] .button.is-white.is-inverted {
   color: white;
 }
 
-.button.is-white.is-outlined:hover, .button.is-white.is-outlined.is-hovered, .button.is-white.is-outlined:focus, .button.is-white.is-outlined.is-focused {
+
   background-color: white;
   border-color: white;
   color: #0a0a0a;
