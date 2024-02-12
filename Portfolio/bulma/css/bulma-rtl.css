@@ -675,7 +675,7 @@ fieldset[disabled] .button.is-white.is-outlined {
   color: white;
 }
 
-.button.is-white.is-inverted.is-outlined.is-loading:hover::after, .button.is-white.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-white.is-inverted.is-outlined.is-loading:focus::after, .button.is-white.is-inverted.is-outlined.is-loading.is-focused::after {
+
   border-color: transparent transparent white white !important;
 }
 
