@@ -664,7 +664,7 @@ fieldset[disabled] .button.is-white.is-outlined {
   color: white;
 }
 
-
+.button.is-white.is-inverted.is-outlined {
   background-color: transparent;
   border-color: #0a0a0a;
   color: #0a0a0a;
