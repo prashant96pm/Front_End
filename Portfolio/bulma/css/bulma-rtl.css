@@ -699,7 +699,7 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
   color: white;
 }
 
-.button.is-black:focus, .button.is-black.is-focused {
+
   border-color: transparent;
   color: white;
 }
