@@ -693,7 +693,7 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
   color: white;
 }
 
-
+.button.is-black:hover, .button.is-black.is-hovered {
   background-color: #040404;
   border-color: transparent;
   color: white;
