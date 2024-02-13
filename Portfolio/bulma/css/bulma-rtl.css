@@ -693,12 +693,19 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
   color: white;
 }
 
-.button.is-black:hover, .button.is-black.is-hovered {
-  background-color: #040404;
+.button.is-black:hover, .
+}
+
+
   border-color: transparent;
   color: white;
 }
-:active, .button.is-black.is-active {
+
+.button.is-black:focus:not(:active), .button.is-black.is-focused:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25);
+}
+
+.button.is-black:active, .button.is-black.is-active {
   background-color: black;
   border-color: transparent;
   color: white;
