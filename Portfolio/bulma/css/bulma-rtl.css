@@ -693,7 +693,10 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
   color: white;
 }
 
-.button.is-black:hover, .
+.button.is-black:hover, .button.is-black.is-hovered {
+  background-color: #040404;
+  border-color: transparent;
+  color: white;
 }
 
 
@@ -705,11 +708,6 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
   box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25);
 }
 
-.button.is-black:active, .button.is-black.is-active {
-  background-color: black;
-  border-color: transparent;
-  color: white;
-}
 
 .button.is-black[disabled],
 fieldset[disabled] .button.is-black {
