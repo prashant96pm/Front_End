@@ -754,7 +754,7 @@ fieldset[disabled] .button.is-black.is-inverted {
   color: white;
 }
 
-
+.button.is-black.is-outlined.is-loading::after {
   border-color: transparent transparent #0a0a0a #0a0a0a !important;
 }
 
