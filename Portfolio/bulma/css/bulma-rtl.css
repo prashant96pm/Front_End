@@ -714,7 +714,14 @@ fieldset[disabled] .button.is-white.is-inverted.is-outlined {
   color: white;
 }
 
-.button.is-bl
+.button.is-black[disabled],
+fieldset[disabled] .button.is-black {
+  background-color: #0a0a0a;
+  border-color: #0a0a0a;
+  box-shadow: none;
+}
+
+.button.is-black.is-inverted {
   background-color: white;
   color: #0a0a0a;
 }
@@ -741,7 +748,7 @@ fieldset[disabled] .button.is-black.is-inverted {
   color: #0a0a0a;
 }
 
-.button.is-black.is-outlined:hover, .button.is-black.is-outlined.is-hovered, .button.is-black.is-outlined:focus, .button.is-black.is-outlined.is-focused {
+
   background-color: #0a0a0a;
   border-color: #0a0a0a;
   color: white;
