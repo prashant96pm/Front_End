@@ -776,7 +776,7 @@ fieldset[disabled] .button.is-black.is-outlined {
   color: white;
 }
 
-.button.is-black.is-inverted.is-outlined:hover, .button.is-black.is-inverted.is-outlined.is-hovered, .button.is-black.is-inverted.is-outlined:focus, .button.is-black.is-inverted.is-outlined.is-focused {
+
   background-color: white;
   color: #0a0a0a;
 }
