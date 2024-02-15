@@ -799,7 +799,7 @@ fieldset[disabled] .button.is-black.is-inverted.is-outlined {
   color: rgba(0, 0, 0, 0.7);
 }
 
-
+.button.is-light:hover, .button.is-light.is-hovered {
   background-color: #eeeeee;
   border-color: transparent;
   color: rgba(0, 0, 0, 0.7);
