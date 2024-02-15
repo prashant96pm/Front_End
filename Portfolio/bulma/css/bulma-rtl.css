@@ -786,7 +786,7 @@ fieldset[disabled] .button.is-black.is-outlined {
 }
 
 .button.is-black.is-inverted.is-outlined[disabled],
-
+fieldset[disabled] .button.is-black.is-inverted.is-outlined {
   background-color: transparent;
   border-color: white;
   box-shadow: none;
