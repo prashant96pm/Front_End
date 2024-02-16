@@ -814,7 +814,7 @@ fieldset[disabled] .button.is-black.is-inverted.is-outlined {
   box-shadow: 0 0 0 0.125em rgba(245, 245, 245, 0.25);
 }
 
-
+.button.is-light:active, .button.is-light.is-active {
   background-color: #e8e8e8;
   border-color: transparent;
   color: rgba(0, 0, 0, 0.7);
