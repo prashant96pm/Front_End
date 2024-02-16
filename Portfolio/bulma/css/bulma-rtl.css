@@ -832,7 +832,7 @@ fieldset[disabled] .button.is-light {
   color: whitesmoke;
 }
 
-.button.is-light.is-inverted:hover, .button.is-light.is-inverted.is-hovered {
+
   background-color: rgba(0, 0, 0, 0.7);
 }
 
