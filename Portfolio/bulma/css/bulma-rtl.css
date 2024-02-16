@@ -820,7 +820,7 @@ fieldset[disabled] .button.is-black.is-inverted.is-outlined {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.button.is-light[disabled],
+
 fieldset[disabled] .button.is-light {
   background-color: whitesmoke;
   border-color: whitesmoke;
