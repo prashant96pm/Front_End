@@ -848,7 +848,7 @@ fieldset[disabled] .button.is-light.is-inverted {
   border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important;
 }
 
-.button.is-light.is-outlined {
+
   background-color: transparent;
   border-color: whitesmoke;
   color: whitesmoke;
