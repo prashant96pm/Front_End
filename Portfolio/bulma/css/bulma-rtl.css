@@ -882,7 +882,7 @@ fieldset[disabled] .button.is-light.is-outlined {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.button.is-light.is-inverted.is-outlined:hover, .button.is-light.is-inverted.is-outlined.is-hovered, .button.is-light.is-inverted.is-outlined:focus, .button.is-light.is-inverted.is-outlined.is-focused {
+
   background-color: rgba(0, 0, 0, 0.7);
   color: whitesmoke;
 }
