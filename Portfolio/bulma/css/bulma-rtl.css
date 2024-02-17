@@ -864,7 +864,7 @@ fieldset[disabled] .button.is-light.is-inverted {
   border-color: transparent transparent whitesmoke whitesmoke !important;
 }
 
-
+.button.is-light.is-outlined.is-loading:hover::after, .button.is-light.is-outlined.is-loading.is-hovered::after, .button.is-light.is-outlined.is-loading:focus::after, .button.is-light.is-outlined.is-loading.is-focused::after {
   border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important;
 }
 
