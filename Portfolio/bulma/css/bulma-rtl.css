@@ -887,7 +887,7 @@ fieldset[disabled] .button.is-light.is-outlined {
   color: whitesmoke;
 }
 
-.button.is-light.is-inverted.is-outlined.is-loading:hover::after, .button.is-light.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-light.is-inverted.is-outlined.is-loading:focus::after, .button.is-light.is-inverted.is-outlined.is-loading.is-focused::after {
+
   border-color: transparent transparent whitesmoke whitesmoke !important;
 }
 
