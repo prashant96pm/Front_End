@@ -911,7 +911,7 @@ fieldset[disabled] .button.is-light.is-inverted.is-outlined {
   color: #fff;
 }
 
-
+.button.is-dark:focus, .button.is-dark.is-focused {
   border-color: transparent;
   color: #fff;
 }
