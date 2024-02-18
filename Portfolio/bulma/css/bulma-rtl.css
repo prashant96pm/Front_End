@@ -916,7 +916,7 @@ fieldset[disabled] .button.is-light.is-inverted.is-outlined {
   color: #fff;
 }
 
-
+.button.is-dark:focus:not(:active), .button.is-dark.is-focused:not(:active) {
   box-shadow: 0 0 0 0.125em rgba(54, 54, 54, 0.25);
 }
 
