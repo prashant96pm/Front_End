@@ -933,7 +933,7 @@ fieldset[disabled] .button.is-dark {
   box-shadow: none;
 }
 
-.button.is-dark.is-inverted {
+
   background-color: #fff;
   color: #363636;
 }
