@@ -950,7 +950,7 @@ fieldset[disabled] .button.is-dark.is-inverted {
   color: #363636;
 }
 
-
+.button.is-dark.is-loading::after {
   border-color: transparent transparent #fff #fff !important;
 }
 
