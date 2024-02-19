@@ -988,7 +988,7 @@ fieldset[disabled] .button.is-dark.is-outlined {
   color: #fff;
 }
 
-
+.button.is-dark.is-inverted.is-outlined:hover, .button.is-dark.is-inverted.is-outlined.is-hovered, .button.is-dark.is-inverted.is-outlined:focus, .button.is-dark.is-inverted.is-outlined.is-focused {
   background-color: #fff;
   color: #363636;
 }
