@@ -938,7 +938,7 @@ fieldset[disabled] .button.is-dark {
   color: #363636;
 }
 
-.button.is-dark.is-inverted:hover, .button.is-dark.is-inverted.is-hovered {
+
   background-color: #f2f2f2;
 }
 
