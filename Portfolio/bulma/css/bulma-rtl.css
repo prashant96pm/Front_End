@@ -993,7 +993,7 @@ fieldset[disabled] .button.is-dark.is-outlined {
   color: #363636;
 }
 
-.button.is-dark.is-inverted.is-outlined.is-loading:hover::after, .button.is-dark.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-dark.is-inverted.is-outlined.is-loading:focus::after, .button.is-dark.is-inverted.is-outlined.is-loading.is-focused::after {
+
   border-color: transparent transparent #363636 #363636 !important;
 }
 
