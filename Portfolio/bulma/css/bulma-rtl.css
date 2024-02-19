@@ -970,7 +970,7 @@ fieldset[disabled] .button.is-dark.is-inverted {
   border-color: transparent transparent #363636 #363636 !important;
 }
 
-
+.button.is-dark.is-outlined.is-loading:hover::after, .button.is-dark.is-outlined.is-loading.is-hovered::after, .button.is-dark.is-outlined.is-loading:focus::after, .button.is-dark.is-outlined.is-loading.is-focused::after {
   border-color: transparent transparent #fff #fff !important;
 }
 
