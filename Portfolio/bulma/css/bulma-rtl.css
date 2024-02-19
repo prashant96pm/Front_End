@@ -926,7 +926,7 @@ fieldset[disabled] .button.is-light.is-inverted.is-outlined {
   color: #fff;
 }
 
-.button.is-dark[disabled],
+
 fieldset[disabled] .button.is-dark {
   background-color: #363636;
   border-color: #363636;
