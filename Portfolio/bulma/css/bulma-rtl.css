@@ -960,7 +960,7 @@ fieldset[disabled] .button.is-dark.is-inverted {
   color: #363636;
 }
 
-.button.is-dark.is-outlined:hover, .button.is-dark.is-outlined.is-hovered, .button.is-dark.is-outlined:focus, .button.is-dark.is-outlined.is-focused {
+
   background-color: #363636;
   border-color: #363636;
   color: #fff;
