@@ -1032,7 +1032,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
   color: #fff;
 }
 
-.button.is-primary[disabled],
+
 fieldset[disabled] .button.is-primary {
   background-color: #00d1b2;
   border-color: #00d1b2;
