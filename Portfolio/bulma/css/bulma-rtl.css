@@ -1039,7 +1039,7 @@ fieldset[disabled] .button.is-primary {
   box-shadow: none;
 }
 
-
+.button.is-primary.is-inverted {
   background-color: #fff;
   color: #00d1b2;
 }
