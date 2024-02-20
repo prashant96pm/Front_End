@@ -1022,7 +1022,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
   color: #fff;
 }
 
-.button.is-primary:focus:not(:active), .button.is-primary.is-focused:not(:active) {
+
   box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
 }
 
