@@ -1017,7 +1017,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
   color: #fff;
 }
 
-.button.is-primary:focus, .button.is-primary.is-focused {
+
   border-color: transparent;
   color: #fff;
 }
