@@ -11746,7 +11746,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
 }
 
-
+.hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body, .hero.is-fullheight-with-navbar .hero-body {
+  align-items: center;
+  display: flex;
+}
 
 .hero.is-halfheight .hero-body > .container, .hero.is-fullheight .hero-body > .container, .hero.is-fullheight-with-navbar .hero-body > .container {
   flex-grow: 1;
