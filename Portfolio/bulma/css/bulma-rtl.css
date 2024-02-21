@@ -11734,7 +11734,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 1.5rem;
 }
 
-
+@media screen and (min-width: 769px), print {
+  .hero.is-medium .hero-body {
+    padding: 9rem 4.5rem;
+  }
+}
 
 @media screen and (min-width: 769px), print {
   .hero.is-large .hero-body {
