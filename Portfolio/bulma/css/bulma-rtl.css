@@ -11661,9 +11661,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: inherit;
 }
 
-.hero.is-danger .title {
-  color: #fff;
-}
+
 
 .hero.is-danger .subtitle {
   color: rgba(255, 255, 255, 0.9);
@@ -11714,7 +11712,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: rgba(10, 10, 10, 0.1);
 }
 
-
+.hero.is-danger .tabs.is-boxed li.is-active a, .hero.is-danger .tabs.is-boxed li.is-active a:hover, .hero.is-danger .tabs.is-toggle li.is-active a, .hero.is-danger .tabs.is-toggle li.is-active a:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #f14668;
+}
 
 .hero.is-danger.is-bold {
   background-image: linear-gradient(141deg, #fa0a62 0%, #f14668 71%, #f7595f 100%);
