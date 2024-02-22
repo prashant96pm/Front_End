@@ -11516,6 +11516,28 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: #fff;
 }
 
+@media screen and (max-width: 1023px) {
+  .hero.is-success .navbar-menu {
+    background-color: #48c78e;
+  }
+}
+
+.hero.is-success .navbar-item,
+.hero.is-success .navbar-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero.is-success a.navbar-item:hover, .hero.is-success a.navbar-item.is-active,
+.hero.is-success .navbar-link:hover,
+.hero.is-success .navbar-link.is-active {
+  background-color: #3abb81;
+  color: #fff;
+}
+
+.hero.is-success .tabs a {
+  color: #fff;
+  opacity: 0.9;
+}
 
 .hero.is-success .tabs a:hover {
   opacity: 1;
