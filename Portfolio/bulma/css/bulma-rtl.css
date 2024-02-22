@@ -11800,7 +11800,21 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
 }
 
-@media scre
+@media screen and (min-width: 769px), print {
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-buttons .button:not(:last-child) {
+    margin-left: 1.5rem;
+  }
+}
+
+.hero-head,
+.hero-foot {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
 
 .hero-body {
   flex-grow: 1;
