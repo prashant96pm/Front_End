@@ -11541,16 +11541,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .hero.is-success .tabs a:hover {
   opacity: 1;
-}
 
-.hero.is-success .tabs li.is-active a {
-  color: #48c78e !important;
-  opacity: 1;
-}
-
-.hero.is-success .tabs.is-boxed a, .hero.is-success .tabs.is-toggle a {
-  color: #fff;
-}
 
 .hero.is-success .tabs.is-boxed a:hover, .hero.is-success .tabs.is-toggle a:hover {
   background-color: rgba(10, 10, 10, 0.1);
