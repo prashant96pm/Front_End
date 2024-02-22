@@ -11498,7 +11498,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: #fff;
 }
 
+.hero.is-success a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
+.hero.is-success strong {
+  color: inherit;
+}
 
+.hero.is-success .title {
+  color: #fff;
+}
 
 .hero.is-success .subtitle {
   color: rgba(255, 255, 255, 0.9);
