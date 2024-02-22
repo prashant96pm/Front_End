@@ -11586,7 +11586,19 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.hero.is-warni
+.hero.is-warning .subtitle {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.hero.is-warning .subtitle a:not(.button),
+.hero.is-warning .subtitle strong {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 1023px) {
+  .hero.is-warning .navbar-menu {
+    background-color: #ffe08a;
+  }
 }
 
 .hero.is-warning .navbar-item,
