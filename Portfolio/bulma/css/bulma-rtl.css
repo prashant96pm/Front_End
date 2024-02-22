@@ -11589,6 +11589,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .hero.is-warning .navbar-link {
   color: rgba(0, 0, 0, 0.7);
 }
+
+.hero.is-warning a.navbar-item:hover, .hero.is-warning a.navbar-item.is-active,
+.hero.is-warning .navbar-link:hover,
+.hero.is-warning .navbar-link.is-active {
+  background-color: #ffd970;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .hero.is-warning .tabs a {
   color: rgba(0, 0, 0, 0.7);
   opacity: 0.9;
