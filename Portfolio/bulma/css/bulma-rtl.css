@@ -11822,17 +11822,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 3rem 1.5rem;
 }
 
-@media screen and (min-width: 769px), print {
-  .hero-body {
-    padding: 3rem 3rem;
-  }
+@medi
 }
 
 .section {
   padding: 3rem 1.5rem;
 }
 
-@media screen and (min-wi
+@media screen and (min-width: 1024px) {
+  .section {
+    padding: 3rem 3rem;
+  }
+  .section.is-medium {
+    padding: 9rem 4.5rem;
+  }
   .section.is-large {
     padding: 18rem 6rem;
   }
