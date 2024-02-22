@@ -11574,13 +11574,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .hero.is-warning {
   background-color: #ffe08a;
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.hero.is-warning a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
-.hero.is-warning strong {
-  color: inherit;
-}
+  c
 
 .hero.is-warning .title {
   color: rgba(0, 0, 0, 0.7);
