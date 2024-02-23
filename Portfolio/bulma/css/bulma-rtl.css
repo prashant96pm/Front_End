@@ -11527,7 +11527,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.hero.is-success a.navbar-item:hover, .hero.is-success a.navbar-item.is-active,
+
 .hero.is-success .navbar-link:hover,
 .hero.is-success .navbar-link.is-active {
   background-color: #3abb81;
