@@ -11528,7 +11528,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-success a.navbar-item:hover, .hero.is-success a.navbar-item.is-active,
-
+.hero.is-success .navbar-link:hover,
 .hero.is-success .navbar-link.is-active {
   background-color: #3abb81;
   color: #fff;
