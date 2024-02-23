@@ -11548,7 +11548,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   opacity: 1;
 }
 
-
+.hero.is-success .tabs.is-boxed a, .hero.is-success .tabs.is-toggle a {
   color: #fff;
 }
 
