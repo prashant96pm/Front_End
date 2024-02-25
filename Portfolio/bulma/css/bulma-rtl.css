@@ -11556,7 +11556,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: rgba(10, 10, 10, 0.1);
 }
 
-.hero.is-success .tabs.is-boxed li.is-active a, .hero.is-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle li.is-active a, .hero.is-success .tabs.is-toggle li.is-active a:hover {
+/**
+ * Styles for active tab links within hero tabs with .is-success modifier
+ */
+.hero.is-success .tabs.is-boxed li.is-active a, .hero.i/**
+ * Media query to change navbar style for smaller screens.
+ * Changes background color and link colors.
+ */
+s-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle li.is-active a, .hero.is-success .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
   border-color: #fff;
   color: #48c78e;
@@ -11567,7 +11574,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 @media screen and (max-width: 768px) {
-  .hero.is-success.is-bold .navbar-menu {
+  
     background-image: linear-gradient(141deg, #29b35e 0%, #48c78e 71%, #56d2af 100%);
   }
 }
