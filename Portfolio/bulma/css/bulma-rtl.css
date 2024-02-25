@@ -11603,7 +11603,7 @@ s-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle 
 }
 
 @media screen and (max-width: 1023px) {
-  
+  .hero.is-warning .navbar-menu {
     background-color: #ffe08a;
   }
 }
