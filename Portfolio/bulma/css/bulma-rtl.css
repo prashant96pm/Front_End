@@ -11614,7 +11614,7 @@ s-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle 
 }
 
 .hero.is-warning a.navbar-item:hover, .hero.is-warning a.navbar-item.is-active,
-.hero.is-warning .navbar-link:hover,
+
 .hero.is-warning .navbar-link.is-active {
   background-color: #ffd970;
   color: rgba(0, 0, 0, 0.7);
