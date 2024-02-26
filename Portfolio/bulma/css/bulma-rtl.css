@@ -11608,7 +11608,7 @@ s-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle 
   }
 }
 
-.hero.is-warning .navbar-item,
+
 .hero.is-warning .navbar-link {
   color: rgba(0, 0, 0, 0.7);
 }
