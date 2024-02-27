@@ -11620,7 +11620,7 @@ s-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle 
   color: rgba(0, 0, 0, 0.7);
 }
 
-
+.hero.is-warning .tabs a {
   color: rgba(0, 0, 0, 0.7);
   opacity: 0.9;
 }
