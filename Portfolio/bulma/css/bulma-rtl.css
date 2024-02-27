@@ -11634,7 +11634,7 @@ s-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle 
   opacity: 1;
 }
 
-
+.hero.is-warning .tabs.is-boxed a, .hero.is-warning .tabs.is-toggle a {
   color: rgba(0, 0, 0, 0.7);
 }
 
