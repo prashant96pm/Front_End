@@ -158,4 +158,4 @@ function removeFromFavorites(meal) {
 // Define a function to reset
 reset.addEventListener('click', function() {
     searchResults.innerHTML = '';
-
+});
