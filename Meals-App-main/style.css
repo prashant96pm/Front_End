@@ -30,7 +30,7 @@ header a{
 
 /* Style for header links on hover */
 header a:hover{
-    
+    text-decoration: underline;
 }
 
 /* Style for container */
