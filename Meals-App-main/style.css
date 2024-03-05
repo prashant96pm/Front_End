@@ -34,7 +34,7 @@ header a:hover{
 }
 
 /* Style for container */
-.container {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
