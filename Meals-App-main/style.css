@@ -59,7 +59,7 @@ input{
 
 /* Style for button */
 button{
-    
+    border: none;
     outline: none;
     padding: 16px 50px;
     background: #da4737;
