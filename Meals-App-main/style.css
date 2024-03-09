@@ -66,7 +66,7 @@ button{
     color: white;
     font-size: 16px;
     cursor: pointer;
-    
+    border-radius: 40px;
 }
 
 /* Style for meal containers */
