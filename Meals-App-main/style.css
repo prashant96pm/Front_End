@@ -85,7 +85,7 @@ button{
 }
 
 /* Style for meal images */
-
+.meal img {
     width: 50%;
     max-height: 250px;
     object-fit: cover;
