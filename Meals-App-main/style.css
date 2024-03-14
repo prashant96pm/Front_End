@@ -115,7 +115,7 @@ button{
     background-color: #fff;
     border: none;
     color: #ff5945;
-    padding: 10px;
+    
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s ease;
