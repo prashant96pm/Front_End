@@ -52,7 +52,7 @@ header a:hover{
 input{
     flex: 1;
     border: none;
-    outline: none;
+    
     background: none;
     padding: 10px;
 }
