@@ -21,7 +21,7 @@ searchButton.addEventListener('click', () => {
         displaySearchResults(data.meals);
       }
     })
-    .catch(error => {
+    
       console.error(error);
     });
 });
