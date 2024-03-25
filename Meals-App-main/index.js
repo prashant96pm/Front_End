@@ -14,7 +14,7 @@ searchButton.addEventListener('click', () => {
 
   fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchQuery}`)
     .then(response => response.json())
-    .then(data => {
+    
       if (data.meals === null) {
         alert('No meals found for this search query.');
       } else {
