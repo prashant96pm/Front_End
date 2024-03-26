@@ -28,10 +28,10 @@ searchButton.addEventListener('click', () => {
 
 // Define a function to display meal items on screen
 function displaySearchResults(meals) {
-  
+  searchResults.innerHTML = '';
  
   
-  meals.forEach(meal => {
+  
     const mealElement = document.createElement('div');
     mealElement.classList.add('meal');
 
