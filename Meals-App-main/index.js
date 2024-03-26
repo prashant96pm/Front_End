@@ -31,7 +31,7 @@ function displaySearchResults(meals) {
   searchResults.innerHTML = '';
  
   
-  
+  meals.forEach(meal => {
     const mealElement = document.createElement('div');
     mealElement.classList.add('meal');
 
