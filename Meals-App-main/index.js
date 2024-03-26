@@ -35,7 +35,7 @@ function displaySearchResults(meals) {
     const mealElement = document.createElement('div');
     mealElement.classList.add('meal');
 
-    const mealImage = document.createElement('img');
+    
     mealImage.src = meal.strMealThumb;
     mealImage.alt = meal.strMeal;
     mealElement.appendChild(mealImage);
