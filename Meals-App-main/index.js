@@ -62,7 +62,7 @@ function displaySearchResults(meals) {
 
     mealElement.appendChild(mealIngredients);
 
-    const mealDescription = document.createElement('p');
+    
     mealDescription.classList.add('description');
     mealDescription.innerText = meal.strInstructions;
     mealElement.appendChild(mealDescription);
