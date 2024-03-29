@@ -65,7 +65,7 @@ function displaySearchResults(meals) {
     const mealDescription = document.createElement('p');
     mealDescription.classList.add('description');
     mealDescription.innerText = meal.strInstructions;
-    mealElement.appendChild(mealDescription);
+    
 
     const readMoreButton = document.createElement('button');
     readMoreButton.innerHTML = 'Read More';
