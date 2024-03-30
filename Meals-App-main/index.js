@@ -72,7 +72,7 @@ function displaySearchResults(meals) {
     readMoreButton.addEventListener('click', () => {
       mealDescription.classList.toggle('show');
     });
-    mealElement.appendChild(readMoreButton);
+    
 
     const favoriteButton = document.createElement('button');
     favoriteButton.innerHTML = '<i class="fas fa-heart"></i> Add to Favorites';
