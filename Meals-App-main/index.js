@@ -79,7 +79,7 @@ function displaySearchResults(meals) {
     favoriteButton.addEventListener('click', () => {
       addToFavorites(meal);
     });
-    mealElement.appendChild(favoriteButton);
+    
 
     searchResults.appendChild(mealElement);
   });
