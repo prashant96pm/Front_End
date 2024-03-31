@@ -87,7 +87,7 @@ function displaySearchResults(meals) {
 
 
 // // Define a function to add a meal in favorites
-
+function addToFavorites(meal) {
   if (!favoritesList.includes(meal)) {
     favoritesList.push(meal);
     alert(`${meal.strMeal} has been added to your favorites.`);
