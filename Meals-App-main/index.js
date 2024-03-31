@@ -90,7 +90,7 @@ function displaySearchResults(meals) {
 function addToFavorites(meal) {
   if (!favoritesList.includes(meal)) {
     favoritesList.push(meal);
-    alert(`${meal.strMeal} has been added to your favorites.`);
+    
   } else {
     alert(`${meal.strMeal} is already in your favorites.`);
   }
