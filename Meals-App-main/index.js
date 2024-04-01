@@ -92,7 +92,7 @@ function addToFavorites(meal) {
     favoritesList.push(meal);
     alert(`${meal.strMeal} has been added to your favorites.`);
   } else {
-    
+    alert(`${meal.strMeal} is already in your favorites.`);
   }
 }
 
