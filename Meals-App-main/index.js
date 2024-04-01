@@ -96,7 +96,7 @@ function addToFavorites(meal) {
   }
 }
 
-
+fav.addEventListener('click', showFav);
 
 
 // Define a function to show all fav meal which are in favr array
