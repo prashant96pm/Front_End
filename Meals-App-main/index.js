@@ -103,7 +103,7 @@ fav.addEventListener('click', showFav);
 function showFav() {
   searchResults.innerHTML = '';
   
-  if (favoritesList.length === 0) {
+  
     const noFavMessage = document.createElement('p');
     noFavMessage.innerText = 'You have no favorite meals.';
     searchResults.appendChild(noFavMessage);
