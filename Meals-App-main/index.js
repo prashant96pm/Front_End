@@ -100,7 +100,7 @@ fav.addEventListener('click', showFav);
 
 
 // Define a function to show all fav meal which are in favr array
-
+function showFav() {
   searchResults.innerHTML = '';
   
   if (favoritesList.length === 0) {
