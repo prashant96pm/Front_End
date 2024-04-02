@@ -105,7 +105,7 @@ function showFav() {
   
   if (favoritesList.length === 0) {
     const noFavMessage = document.createElement('p');
-    noFavMessage.innerText = 'You have no favorite meals.';
+    
     searchResults.appendChild(noFavMessage);
   } else {
     favoritesList.forEach(meal => {
