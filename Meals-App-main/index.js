@@ -109,7 +109,7 @@ function showFav() {
     searchResults.appendChild(noFavMessage);
   } else {
     favoritesList.forEach(meal => {
-      const mealElement = document.createElement('div');
+      
       mealElement.classList.add('meal');
 
       const mealImage = document.createElement('img');
