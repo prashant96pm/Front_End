@@ -117,7 +117,7 @@ function showFav() {
       mealImage.alt = meal.strMeal;
       mealElement.appendChild(mealImage);
 
-      
+      const mealName = document.createElement('h2');
       mealName.innerText = meal.strMeal;
       mealElement.appendChild(mealName);
 
