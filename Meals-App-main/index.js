@@ -119,7 +119,7 @@ function showFav() {
 
       const mealName = document.createElement('h2');
       mealName.innerText = meal.strMeal;
-      mealElement.appendChild(mealName);
+      
 
       const mealIngredients = document.createElement('ul');
       for (let i = 1; i <= 20; i++) {
