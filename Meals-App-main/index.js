@@ -124,7 +124,7 @@ function showFav() {
       const mealIngredients = document.createElement('ul');
       for (let i = 1; i <= 20; i++) {
           if (meal[`strIngredient${i}`]) {
-              
+              const ingredient = document.createElement('li');
               ingredient.innerText = `${meal[`strIngredient${i}`]} - ${meal[`strMeasure${i}`]}`;
               mealIngredients.appendChild(ingredient);
           } else {
