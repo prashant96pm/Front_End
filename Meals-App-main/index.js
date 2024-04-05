@@ -138,7 +138,7 @@ function showFav() {
       removeButton.addEventListener('click', () => {
           removeFromFavorites(meal);
       });
-      mealElement.appendChild(removeButton);
+      
 
       searchResults.appendChild(mealElement);
     });
