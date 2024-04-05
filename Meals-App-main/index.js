@@ -133,9 +133,9 @@ function showFav() {
       }
       mealElement.appendChild(mealIngredients);
 
-      
+      const removeButton = document.createElement('button');
       removeButton.innerHTML = '<i class="fas fa-trash"></i> Remove from Favorites';
-      removeButton.addEventListener('click', () => {
+      
           removeFromFavorites(meal);
       });
       mealElement.appendChild(removeButton);
