@@ -126,7 +126,7 @@ function showFav() {
           if (meal[`strIngredient${i}`]) {
               const ingredient = document.createElement('li');
               ingredient.innerText = `${meal[`strIngredient${i}`]} - ${meal[`strMeasure${i}`]}`;
-              
+              mealIngredients.appendChild(ingredient);
           } else {
               break;
           }
