@@ -148,7 +148,7 @@ function showFav() {
 // Define a function to remove meal from fav
 function removeFromFavorites(meal) {
   const mealIndex = favoritesList.findIndex(fav => fav.idMeal === meal.idMeal);
-  
+  if (mealIndex !== -1) {
     favoritesList.splice(mealIndex, 1);
     showFav();
     alert(`${meal.strMeal} It has been removed from your favorites.`);
