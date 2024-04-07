@@ -151,7 +151,7 @@ function removeFromFavorites(meal) {
   if (mealIndex !== -1) {
     favoritesList.splice(mealIndex, 1);
     showFav();
-    alert(`${meal.strMeal} It has been removed from your favorites.`);
+    
   }
 }
 
