@@ -138,7 +138,7 @@ $button-responsive-sizes: ("mobile": ("small": ($size-small * 0.75), "normal": (
     &.is-hovered
       color: $button-ghost-hover-color
       text-decoration: $button-ghost-hover-decoration
-  @each $name, $pair in $button-colors
+  
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}
