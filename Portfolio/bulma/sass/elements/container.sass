@@ -16,7 +16,7 @@ $container-max-width: $fullhd !default
   +desktop
     max-width: $desktop - $container-offset
   +until-widescreen
-    
+    &.is-widescreen:not(.is-max-desktop)
       max-width: min($widescreen, $container-max-width) - $container-offset
   +until-fullhd
     &.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen)
