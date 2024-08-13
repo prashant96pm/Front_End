@@ -16,7 +16,7 @@
     "url": "git+https://github.com/jgthms/bulma.git"
   },
   "license": "MIT",
-  "keywords": [
+  
     "css",
     "sass",
     "flexbox",
