@@ -23,7 +23,7 @@
     "responsive",
     "framework"
   ],
-  
+  "bugs": {
     "url": "https://github.com/jgthms/bulma/issues"
   },
   "devDependencies": {
