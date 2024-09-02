@@ -5,7 +5,7 @@
   "author": {
     "name": "Jeremy Thomas",
     "email": "bbxdesign@gmail.com",
-    "url": "https://jgthms.com"
+    
   },
   "description": "Modern CSS framework based on Flexbox",
   "main": "bulma.sass",
